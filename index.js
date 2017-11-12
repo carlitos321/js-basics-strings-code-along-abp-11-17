@@ -1,5 +1,5 @@
 // Write your code in this file!
-let currentUser = 'John'
+const currentUser = 'John'
 
 const welcomeMessage = 'Welcome to Flatbook, ' + currentUser + '!'
 
