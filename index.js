@@ -3,6 +3,6 @@ const currentUser = 'John';
 
 const welcomeMessage = `Welcome to Flatbook, ${currentUser}!`;
 
-const excitedWelcomeMessage = `WELCOME TO FLATBOOK, ${currentUser}!`;
+const excitedWelcomeMessage = welcomeMessage.toUpperCase();
 
 let shortGreeting = `Welcome, ${currentUser.substring(0,1)}!`;
